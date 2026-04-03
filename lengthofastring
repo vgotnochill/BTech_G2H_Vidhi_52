@@ -1,0 +1,13 @@
+#include<stdio.h>
+ int main()
+ {
+     char str[]="heylo";
+     int n=0;
+       
+       while(str[n])
+       n++;
+       printf("%d", n);
+       
+       return 0;
+    
+ }
